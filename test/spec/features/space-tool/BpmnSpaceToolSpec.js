@@ -35,6 +35,25 @@ describe('features/space-tool - BpmnSpaceTool', function() {
   }));
 
 
+  it('should move labels', inject(function(dragging, elementRegistry, spaceTool) {
+
+    // given
+    var exclusiveGateway = elementRegistry.get('ExclusiveGateway_1'),
+        exclusiveGatewayLabel = exclusiveGateway.label,
+        exclusiveGatewayLabelX = exclusiveGatewayLabel.x;
+
+    // when
+    spaceTool.activateMakeSpace(canvasEvent({ x: exclusiveGateway.x - 10, y: 0 }));
+
+    dragging.move(canvasEvent({ x: exclusiveGateway.x + 90, y: 0 }));
+
+    dragging.end();
+
+    // then
+    expect(exclusiveGatewayLabel.x).to.equal(exclusiveGatewayLabelX + 100);
+  }));
+
+
   it('should not resize text annotations', inject(function(dragging, elementRegistry, spaceTool) {
 
     // given
