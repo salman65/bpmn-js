@@ -1,6 +1,6 @@
 import inherits from 'inherits';
 
-import RuleProvider from 'diagram-js/lib/features/rules/RuleProvider';
+import RuleProvider from '@salman65/diagram-js/lib/features/rules/RuleProvider';
 
 
 export default function CustomRules(eventBus) {

@@ -8,7 +8,7 @@ import {
 } from 'min-dash';
 
 import coreModule from 'lib/core';
-import moveModule from 'diagram-js/lib/features/move';
+import moveModule from '@salman65/diagram-js/lib/features/move';
 import modelingModule from 'lib/features/modeling';
 
 var noTouchInteractionModule = { touchInteractionEvents: ['value', null ] };
@@ -17,7 +17,7 @@ import {
   createCanvasEvent as canvasEvent
 } from '../../../../util/MockEvents';
 
-import { getMid } from 'diagram-js/lib/layout/LayoutUtil';
+import { getMid } from '@salman65/diagram-js/lib/layout/LayoutUtil';
 
 
 describe('modeling/behavior - drop on connection', function() {

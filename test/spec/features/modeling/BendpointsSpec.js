@@ -4,7 +4,7 @@ import {
 } from 'test/TestHelper';
 
 import modelingModule from 'lib/features/modeling';
-import bendpointsModule from 'diagram-js/lib/features/bendpoints';
+import bendpointsModule from '@salman65/diagram-js/lib/features/bendpoints';
 import coreModule from 'lib/core';
 
 

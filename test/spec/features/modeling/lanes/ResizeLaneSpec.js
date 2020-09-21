@@ -8,7 +8,7 @@ import coreModule from 'lib/core';
 
 import {
   resizeTRBL
-} from 'diagram-js/lib/features/resize/ResizeUtil';
+} from '@salman65/diagram-js/lib/features/resize/ResizeUtil';
 
 import {
   pick

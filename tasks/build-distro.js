@@ -25,8 +25,8 @@ mkdirp(dest);
 console.log('copy bpmn-font to ' + dest + '/bpmn-font');
 cp(resolve('bpmn-font', '/dist/{font,css}/**'), dest + '/assets/bpmn-font');
 
-console.log('copy diagram-js.css to ' + dest);
-cp(resolve('diagram-js', '/assets/**'), dest + '/assets');
+console.log('copy @salman65/diagram-js.css to ' + dest);
+cp(resolve('@salman65/diagram-js', '/assets/**'), dest + '/assets');
 
 console.log('building pre-packaged distributions');
 

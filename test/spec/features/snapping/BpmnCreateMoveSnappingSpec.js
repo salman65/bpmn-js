@@ -7,16 +7,16 @@ import {
 import TestContainer from 'mocha-test-container-support';
 
 import coreModule from 'lib/core';
-import createModule from 'diagram-js/lib/features/create';
+import createModule from '@salman65/diagram-js/lib/features/create';
 import modelingModule from 'lib/features/modeling';
-import moveModule from 'diagram-js/lib/features/move';
+import moveModule from '@salman65/diagram-js/lib/features/move';
 import rulesModule from 'lib/features/rules';
 import snappingModule from 'lib/features/snapping';
 
 import {
   isSnapped,
   mid
-} from 'diagram-js/lib/features/snapping/SnapUtil';
+} from '@salman65/diagram-js/lib/features/snapping/SnapUtil';
 
 import { createCanvasEvent as canvasEvent } from '../../../util/MockEvents';
 

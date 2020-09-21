@@ -7,7 +7,7 @@ import {
 var skip = window.__env__ && window.__env__.TRANSLATIONS === 'enabled';
 
 import coreModule from 'lib/core';
-import translateModule from 'diagram-js/lib/i18n/translate';
+import translateModule from '@salman65/diagram-js/lib/i18n/translate';
 import customTranslateModule from './custom-translate';
 import modelingModule from 'lib/features/modeling';
 import paletteModule from 'lib/features/palette';

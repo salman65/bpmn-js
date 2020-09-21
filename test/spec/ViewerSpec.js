@@ -1,6 +1,6 @@
 import TestContainer from 'mocha-test-container-support';
 
-import Diagram from 'diagram-js/lib/Diagram';
+import Diagram from '@salman65/diagram-js/lib/Diagram';
 
 import ViewerDefaultExport from '../../';
 

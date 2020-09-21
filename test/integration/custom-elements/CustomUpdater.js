@@ -4,7 +4,7 @@ import {
   is as isBpmn
 } from 'lib/util/ModelUtil';
 
-import CommandInterceptor from 'diagram-js/lib/command/CommandInterceptor';
+import CommandInterceptor from '@salman65/diagram-js/lib/command/CommandInterceptor';
 
 
 function isCustom(element, type) {

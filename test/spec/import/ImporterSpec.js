@@ -1,6 +1,6 @@
 import TestContainer from 'mocha-test-container-support';
 
-import Diagram from 'diagram-js/lib/Diagram';
+import Diagram from '@salman65/diagram-js/lib/Diagram';
 import BpmnModdle from 'bpmn-moddle';
 
 import {
@@ -15,7 +15,7 @@ import {
 
 import {
   getChildren as getChildrenGfx
-} from 'diagram-js/lib/util/GraphicsUtil';
+} from '@salman65/diagram-js/lib/util/GraphicsUtil';
 
 import {
   find

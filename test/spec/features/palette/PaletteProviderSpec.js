@@ -5,11 +5,11 @@ import {
 } from 'test/TestHelper';
 
 import coreModule from 'lib/core';
-import createModule from 'diagram-js/lib/features/create';
+import createModule from '@salman65/diagram-js/lib/features/create';
 import modelingModule from 'lib/features/modeling';
 import paletteModule from 'lib/features/palette';
 
-import { createMoveEvent } from 'diagram-js/lib/features/mouse/Mouse';
+import { createMoveEvent } from '@salman65/diagram-js/lib/features/mouse/Mouse';
 
 import { is } from 'lib/util/ModelUtil';
 

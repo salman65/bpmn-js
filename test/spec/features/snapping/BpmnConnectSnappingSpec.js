@@ -3,9 +3,9 @@ import {
   inject
 } from 'test/TestHelper';
 
-import connectModule from 'diagram-js/lib/features/connect';
+import connectModule from '@salman65/diagram-js/lib/features/connect';
 import coreModule from 'lib/core';
-import globalConnectModule from 'diagram-js/lib/features/global-connect';
+import globalConnectModule from '@salman65/diagram-js/lib/features/global-connect';
 import modelingModule from 'lib/features/modeling';
 import rulesModule from 'lib/features/rules';
 import snappingModule from 'lib/features/snapping';

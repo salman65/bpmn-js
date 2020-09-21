@@ -7,7 +7,7 @@ import autoPlaceModule from 'lib/features/auto-place';
 import coreModule from 'lib/core';
 import labelEditingModule from 'lib/features/label-editing';
 import modelingModule from 'lib/features/modeling';
-import selectionModule from 'diagram-js/lib/features/selection';
+import selectionModule from '@salman65/diagram-js/lib/features/selection';
 
 import { getBusinessObject } from '../../../../lib/util/ModelUtil';
 

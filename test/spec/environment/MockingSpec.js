@@ -3,7 +3,7 @@ import {
   inject
 } from 'test/TestHelper';
 
-import Events from 'diagram-js/lib/core/EventBus';
+import Events from '@salman65/diagram-js/lib/core/EventBus';
 
 import Viewer from 'lib/Viewer';
 

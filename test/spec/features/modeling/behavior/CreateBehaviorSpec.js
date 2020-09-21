@@ -5,7 +5,7 @@ import {
 
 import coreModule from 'lib/core';
 import modelingModule from 'lib/features/modeling';
-import { getMid } from 'diagram-js/lib/layout/LayoutUtil';
+import { getMid } from '@salman65/diagram-js/lib/layout/LayoutUtil';
 
 
 describe('features/modeling - CreateBehavior', function() {

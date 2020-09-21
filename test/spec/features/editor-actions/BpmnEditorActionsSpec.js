@@ -5,7 +5,7 @@ import {
 
 var pick = require('min-dash').pick;
 
-var getBBox = require('diagram-js/lib/util/Elements').getBBox;
+var getBBox = require('@salman65/diagram-js/lib/util/Elements').getBBox;
 
 var getParent = require('lib/features/modeling/util/ModelingUtil').getParent;
 

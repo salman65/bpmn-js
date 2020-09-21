@@ -4,16 +4,16 @@ import {
 } from 'test/TestHelper';
 
 import coreModule from 'lib/core';
-import createModule from 'diagram-js/lib/features/create';
+import createModule from '@salman65/diagram-js/lib/features/create';
 import gridSnappingModule from 'lib/features/grid-snapping';
 import modelingModule from 'lib/features/modeling';
-import moveModule from 'diagram-js/lib/features/move';
+import moveModule from '@salman65/diagram-js/lib/features/move';
 
 import {
   createCanvasEvent as canvasEvent
 } from '../../../util/MockEvents';
 
-import { getMid } from 'diagram-js/lib/layout/LayoutUtil';
+import { getMid } from '@salman65/diagram-js/lib/layout/LayoutUtil';
 
 import {
   isString,

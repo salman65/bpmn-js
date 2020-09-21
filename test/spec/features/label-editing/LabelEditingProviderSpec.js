@@ -5,7 +5,7 @@ import {
 
 import labelEditingModule from 'lib/features/label-editing';
 import coreModule from 'lib/core';
-import draggingModule from 'diagram-js/lib/features/dragging';
+import draggingModule from '@salman65/diagram-js/lib/features/dragging';
 import modelingModule from 'lib/features/modeling';
 import autoPlaceModule from 'lib/features/auto-place';
 

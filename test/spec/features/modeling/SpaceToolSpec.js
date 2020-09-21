@@ -15,7 +15,7 @@ import {
 import modelingModule from 'lib/features/modeling';
 import coreModule from 'lib/core';
 
-import { isMac } from 'diagram-js/lib/util/Platform';
+import { isMac } from '@salman65/diagram-js/lib/util/Platform';
 
 var invertModifier = isMac() ? { metaKey: true } : { ctrlKey: true };
 

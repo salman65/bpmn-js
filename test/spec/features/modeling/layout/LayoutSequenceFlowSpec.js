@@ -10,7 +10,7 @@ import {
   reconnectEnd
 } from './Helper';
 
-import { getMid } from 'diagram-js/lib/layout/LayoutUtil';
+import { getMid } from '@salman65/diagram-js/lib/layout/LayoutUtil';
 
 import modelingModule from 'lib/features/modeling';
 import coreModule from 'lib/core';

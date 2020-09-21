@@ -5,7 +5,7 @@ import {
 
 import coreModule from 'lib/core';
 import modelingModule from 'lib/features/modeling';
-import resizeModule from 'diagram-js/lib/features/resize';
+import resizeModule from '@salman65/diagram-js/lib/features/resize';
 import rulesModule from 'lib/features/rules';
 import snappingModule from 'lib/features/snapping';
 

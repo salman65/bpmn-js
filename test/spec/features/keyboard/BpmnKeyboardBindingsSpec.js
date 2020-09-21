@@ -8,14 +8,14 @@ import { forEach } from 'min-dash';
 import copyPasteModule from 'lib/features/copy-paste';
 import coreModule from 'lib/core';
 import editorActionsModule from 'lib/features/editor-actions';
-import globalConnectModule from 'diagram-js/lib/features/global-connect';
-import handToolModule from 'diagram-js/lib/features/hand-tool';
+import globalConnectModule from '@salman65/diagram-js/lib/features/global-connect';
+import handToolModule from '@salman65/diagram-js/lib/features/hand-tool';
 import keyboardModule from 'lib/features/keyboard';
 import labelEditingModule from 'lib/features/label-editing';
-import lassoToolModule from 'diagram-js/lib/features/lasso-tool';
+import lassoToolModule from '@salman65/diagram-js/lib/features/lasso-tool';
 import modelingModule from 'lib/features/modeling';
 import searchModule from 'lib/features/search';
-import spaceToolModule from 'diagram-js/lib/features/space-tool';
+import spaceToolModule from '@salman65/diagram-js/lib/features/space-tool';
 
 import {
   createKeyEvent

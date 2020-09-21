@@ -10,10 +10,10 @@ import {
 
 import {
   indexOf as collectionIndexOf
-} from 'diagram-js/lib/util/Collections';
+} from '@salman65/diagram-js/lib/util/Collections';
 
 import bpmnCopyPasteModule from 'lib/features/copy-paste';
-import copyPasteModule from 'diagram-js/lib/features/copy-paste';
+import copyPasteModule from '@salman65/diagram-js/lib/features/copy-paste';
 import modelingModule from 'lib/features/modeling';
 import coreModule from 'lib/core';
 

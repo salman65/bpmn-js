@@ -6,10 +6,10 @@ import {
 import modelingModule from 'lib/features/modeling';
 import coreModule from 'lib/core';
 
-import bendpointsModule from 'diagram-js/lib/features/bendpoints';
-import connectionPreviewModule from 'diagram-js/lib/features/connection-preview';
-import connectModule from 'diagram-js/lib/features/connect';
-import createModule from 'diagram-js/lib/features/create';
+import bendpointsModule from '@salman65/diagram-js/lib/features/bendpoints';
+import connectionPreviewModule from '@salman65/diagram-js/lib/features/connection-preview';
+import connectModule from '@salman65/diagram-js/lib/features/connect';
+import createModule from '@salman65/diagram-js/lib/features/create';
 
 import {
   createCanvasEvent as canvasEvent

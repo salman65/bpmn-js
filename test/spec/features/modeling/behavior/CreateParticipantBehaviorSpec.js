@@ -4,14 +4,14 @@ import {
 } from 'test/TestHelper';
 
 import coreModule from 'lib/core';
-import createModule from 'diagram-js/lib/features/create';
+import createModule from '@salman65/diagram-js/lib/features/create';
 import modelingModule from 'lib/features/modeling';
 
 import {
   getBBox
-} from 'diagram-js/lib/util/Elements';
+} from '@salman65/diagram-js/lib/util/Elements';
 
-import { asTRBL } from 'diagram-js/lib/layout/LayoutUtil';
+import { asTRBL } from '@salman65/diagram-js/lib/layout/LayoutUtil';
 
 import {
   createCanvasEvent as canvasEvent

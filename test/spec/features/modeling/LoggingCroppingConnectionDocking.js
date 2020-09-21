@@ -1,8 +1,8 @@
-import CroppingConnectionDocking from 'diagram-js/lib/layout/CroppingConnectionDocking';
+import CroppingConnectionDocking from '@salman65/diagram-js/lib/layout/CroppingConnectionDocking';
 
 import {
   getOrientation
-} from 'diagram-js/lib/layout/LayoutUtil';
+} from '@salman65/diagram-js/lib/layout/LayoutUtil';
 
 import inherits from 'inherits';
 

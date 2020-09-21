@@ -3,7 +3,7 @@ import {
   inject
 } from 'test/TestHelper';
 
-import { getOrientation } from 'diagram-js/lib/layout/LayoutUtil';
+import { getOrientation } from '@salman65/diagram-js/lib/layout/LayoutUtil';
 
 import modelingModule from 'lib/features/modeling';
 import coreModule from 'lib/core';

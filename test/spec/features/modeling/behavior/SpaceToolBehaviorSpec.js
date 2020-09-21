@@ -7,7 +7,7 @@ import coreModule from 'lib/core';
 import modelingModule from 'lib/features/modeling';
 import rulesModule from 'lib/features/rules';
 import snappingModule from 'lib/features/snapping';
-import spaceToolModule from 'diagram-js/lib/features/space-tool';
+import spaceToolModule from '@salman65/diagram-js/lib/features/space-tool';
 
 import {
   createCanvasEvent as canvasEvent

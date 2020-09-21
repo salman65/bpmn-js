@@ -13,12 +13,12 @@ import {
 
 import {
   getMid
-} from 'diagram-js/lib/layout/LayoutUtil';
+} from '@salman65/diagram-js/lib/layout/LayoutUtil';
 
 import modelingModule from 'lib/features/modeling';
-import moveModule from 'diagram-js/lib/features/move';
+import moveModule from '@salman65/diagram-js/lib/features/move';
 import coreModule from 'lib/core';
-import bendpointsModule from 'diagram-js/lib/features/bendpoints';
+import bendpointsModule from '@salman65/diagram-js/lib/features/bendpoints';
 
 import {
   createCanvasEvent as canvasEvent

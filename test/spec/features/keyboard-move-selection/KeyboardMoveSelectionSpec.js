@@ -4,11 +4,11 @@ import {
 } from 'test/TestHelper';
 
 import coreModule from 'lib/core';
-import keyboardMoveSelectionModule from 'diagram-js/lib/features/keyboard-move-selection';
+import keyboardMoveSelectionModule from '@salman65/diagram-js/lib/features/keyboard-move-selection';
 import modelingModule from 'lib/features/modeling';
 import rulesModule from 'lib/features/rules';
 
-import { getMid } from 'diagram-js/lib/layout/LayoutUtil';
+import { getMid } from '@salman65/diagram-js/lib/layout/LayoutUtil';
 
 
 describe('features/keyboard-move-selection', function() {

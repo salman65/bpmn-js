@@ -4,10 +4,10 @@ import {
 } from 'test/TestHelper';
 
 import coreModule from 'lib/core';
-import bendpointsModule from 'diagram-js/lib/features/bendpoints';
+import bendpointsModule from '@salman65/diagram-js/lib/features/bendpoints';
 import modelingModule from 'lib/features/modeling';
 import labelEditingModule from 'lib/features/label-editing';
-import spaceTool from 'diagram-js/lib/features/space-tool';
+import spaceTool from '@salman65/diagram-js/lib/features/space-tool';
 
 import {
   createCanvasEvent as canvasEvent

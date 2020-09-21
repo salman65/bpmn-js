@@ -6,7 +6,7 @@ import {
 import coreModule from 'lib/core';
 import gridSnappingModule from 'lib/features/grid-snapping';
 import modelingModule from 'lib/features/modeling';
-import moveModule from 'diagram-js/lib/features/move';
+import moveModule from '@salman65/diagram-js/lib/features/move';
 import copyPasteModule from 'lib/features/copy-paste';
 
 /* global sinon */

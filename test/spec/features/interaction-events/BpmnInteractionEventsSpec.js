@@ -12,8 +12,8 @@ import modelingModule from 'lib/features/modeling';
 import coreModule from 'lib/core';
 import interactionEventsModule from 'lib/features/interaction-events';
 
-import createModule from 'diagram-js/lib/features/create';
-import moveModule from 'diagram-js/lib/features/move';
+import createModule from '@salman65/diagram-js/lib/features/create';
+import moveModule from '@salman65/diagram-js/lib/features/move';
 
 var testModules = [
   coreModule,

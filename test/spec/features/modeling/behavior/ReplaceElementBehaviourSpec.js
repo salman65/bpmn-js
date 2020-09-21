@@ -5,7 +5,7 @@ import {
 
 import replacePreviewModule from 'lib/features/replace-preview';
 import modelingModule from 'lib/features/modeling';
-import moveModule from 'diagram-js/lib/features/move';
+import moveModule from '@salman65/diagram-js/lib/features/move';
 import coreModule from 'lib/core';
 
 import { is } from 'lib/util/ModelUtil';

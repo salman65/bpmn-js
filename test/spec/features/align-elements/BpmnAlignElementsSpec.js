@@ -3,7 +3,7 @@ import {
   inject
 } from 'test/TestHelper';
 
-import alignElementsModule from 'diagram-js/lib/features/align-elements';
+import alignElementsModule from '@salman65/diagram-js/lib/features/align-elements';
 import modelingModule from 'lib/features/modeling';
 import coreModule from 'lib/core';
 

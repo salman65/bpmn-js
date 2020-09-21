@@ -23,7 +23,7 @@ import contextPadModule from 'lib/features/context-pad';
 import coreModule from 'lib/core';
 import modelingModule from 'lib/features/modeling';
 import replaceMenuModule from 'lib/features/popup-menu';
-import createModule from 'diagram-js/lib/features/create';
+import createModule from '@salman65/diagram-js/lib/features/create';
 import customRulesModule from '../../../util/custom-rules';
 import autoPlaceModule from 'lib/features/auto-place';
 

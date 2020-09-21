@@ -5,7 +5,7 @@ import {
 
 import coreModule from 'lib/core';
 import modelingModule from 'lib/features/modeling';
-import moveModule from 'diagram-js/lib/features/move';
+import moveModule from '@salman65/diagram-js/lib/features/move';
 import snappingModule from 'lib/features/snapping';
 
 import {

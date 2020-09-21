@@ -3,7 +3,7 @@ import {
   inject
 } from 'test/TestHelper';
 
-import { getMid } from 'diagram-js/lib/layout/LayoutUtil';
+import { getMid } from '@salman65/diagram-js/lib/layout/LayoutUtil';
 
 import autoPlaceModule from 'lib/features/auto-place';
 import coreModule from 'lib/core';

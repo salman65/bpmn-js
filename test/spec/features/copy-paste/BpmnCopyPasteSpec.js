@@ -5,7 +5,7 @@ import {
 } from 'test/TestHelper';
 
 import bpmnCopyPasteModule from 'lib/features/copy-paste';
-import copyPasteModule from 'diagram-js/lib/features/copy-paste';
+import copyPasteModule from '@salman65/diagram-js/lib/features/copy-paste';
 import coreModule from 'lib/core';
 import modelingModule from 'lib/features/modeling';
 

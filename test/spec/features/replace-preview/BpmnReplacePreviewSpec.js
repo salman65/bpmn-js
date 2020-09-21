@@ -4,7 +4,7 @@ import {
 } from 'test/TestHelper';
 
 import replacePreviewModule from 'lib/features/replace-preview';
-import moveModule from 'diagram-js/lib/features/move';
+import moveModule from '@salman65/diagram-js/lib/features/move';
 import modelingModule from 'lib/features/modeling';
 import coreModule from 'lib/core';
 

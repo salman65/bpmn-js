@@ -10,7 +10,7 @@ import {
 
 import modelingModule from 'lib/features/modeling';
 import replaceModule from 'lib/features/replace';
-import moveModule from 'diagram-js/lib/features/move';
+import moveModule from '@salman65/diagram-js/lib/features/move';
 import coreModule from 'lib/core';
 
 import camundaModdleModule from 'camunda-bpmn-moddle/lib';
